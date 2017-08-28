@@ -1,8 +1,5 @@
 body{
-    background-color: #638a79;
-    background-image: url("img/body-bg.png");
-    background-repeat: repeat-x;
-    background-position: fixed;
+    background: #638a79 url("img/body-bg.png") repeat-x fixed;
     font-size: 13px;
     line-height: 18px;
     color: #333;
@@ -16,13 +13,11 @@ body{
 }
 .content .content-top {
 	height: 12px;
-	background-image: url(img/content-bg.png);
-	background-position: 0px 0px;
+	background: url(img/content-bg.png) 0px 0px;
 }
 .content .content-bottom {
 	height: 12px;
-	background-image: url(img/content-bg.png);
-	background-position: 0px -840px;
+	background-image: url(img/content-bg.png) 0px -840px;
 	transform: scaleY(-1);
 }
 .content .content-middle {
@@ -55,14 +50,11 @@ div.block-1 {
     background-image: url(img/block-1-bg.png);
 }
 div.block-2 {
-    background-repeat: no-repeat;
     color: white;
     font-style: italic;
     font-size: 12px;
     padding: 20px 30px;
-    background-color: #356149;
-    background-image: url(img/picture-1.png);
-    background-position: right bottom; 
+    background: #356149 url(img/picture-1.png) no-repeat right bottom;
 }
 
 a.button {
@@ -70,7 +62,7 @@ a.button {
 	width: 121px;
 	height: 38px;
 	text-decoration: none;
-	background-image: url(img/button-1.png) ;
+	background-image: url(img/button-1.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 }
